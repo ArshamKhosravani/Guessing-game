@@ -1,4 +1,5 @@
-1. Introduction
+1. Introduction:
+
 I designed and implemented an interactive number-guessing game using the Zybo 
 Z7-10 FPGA development board, building upon prior labs that explored keypad input and output 
 display mechanisms. The core objective was to create a playable system where users could 
@@ -15,7 +16,8 @@ and troubleshooting synthesis issues, ultimately reinforcing best practices for 
 interactive FPGA design. 
   
 
-2. Design/Implementation 
+2. Design/Implementation :
+
 The game system was built around a top-level VHDL module that orchestrated all internal 
 subsystems. The design took a modular approach to ensure that each functionality—from user 
 input to output display—could be independently tested, maintained, and refined. Inputs included 
@@ -41,7 +43,8 @@ carefully mapped in the constraints file to ensure compatibility with the Zybo b
 structure. Key timing values—like 10 ms for debounce and SSD digit refresh and 500 ms 
 blinking for win feedback—were carefully chosen for visibility and user interaction fidelity. 
 
-3. Verification 
+3. Verification :
+
 To validate the design, both simulation and physical hardware testing were employed. A custom 
 VHDL testbench simulated 1.5 seconds of operation and verified every major functionality: reset 
 behavior, keypad input detection, target number setting, LED response, SSD accuracy, RGB 
@@ -57,7 +60,8 @@ noted—likely due to the limitations of the gpio.vhd placeholder module. These 
 severe enough to impact overall system function but suggest areas for improvement in future 
 iterations. 
 
-4. Conclusions 
+4. Conclusions ::
+
 This project represented the culmination of concepts explored throughout the course, blending FSM 
 design, real-time input processing, and output synchronization into a single cohesive system. 
 Despite encountering synthesis errors and working with several placeholder modules, I 
