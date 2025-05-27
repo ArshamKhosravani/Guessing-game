@@ -60,7 +60,7 @@ noted—likely due to the limitations of the gpio.vhd placeholder module. These 
 severe enough to impact overall system function but suggest areas for improvement in future 
 iterations. 
 
-4. Conclusions ::
+4. Conclusions :
 
 This project represented the culmination of concepts explored throughout the course, blending FSM 
 design, real-time input processing, and output synchronization into a single cohesive system. 
